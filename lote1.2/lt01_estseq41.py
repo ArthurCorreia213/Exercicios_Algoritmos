@@ -2,13 +2,15 @@
 # resultado 7.
 #Arthur Correia
 
-lados = 6
+def calcular_resultados_dado():
+    lados = 6
+    lista = []
 
-lista = []
+    for resultado_dado_1 in range(lados+1):
+        for resultado_dado_2 in range(lados+1):
+            if resultado_dado_1 + resultado_dado_2 == 7:
+                lista.append((resultado_dado_1, resultado_dado_2)) 
 
-for num1 in range(lados+1):
-    for num2 in range(lados+1):
-        if num1 + num2 == 7:
-            lista.append((num1,num2)) 
+    print(lista)
 
-print(lista)
+calcular_resultados_dado()

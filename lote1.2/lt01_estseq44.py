@@ -2,7 +2,11 @@
 # potência
 #Arthur Correia
 
+def potenciacao(base, expoente):
+    resultado_potencia = base**expoente
+    print(f"O valor da potência é: {resultado_potencia}")
+
 base = int(input("Digite o valor da base: "))
 expoente = int(input("Digite o valor do expoente: "))
 
-print(f"O valor da potência é: {base**expoente}")
+potenciacao(base, expoente)
