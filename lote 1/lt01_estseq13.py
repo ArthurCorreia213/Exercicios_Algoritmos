@@ -1,2 +1,0 @@
-quantidade_de_alimento = float(input("Digite a quantidade de alimento em quilos: "))
-print(f"Uma pessoa consumindo 50g por dia levará {(quantidade_de_alimento)*1000/50:.2f} dias para consumir essa quantidade de alimentos")

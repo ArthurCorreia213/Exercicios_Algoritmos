@@ -1,9 +1,13 @@
 #Receba dois valores, mostre seus valores em ordem crescente
+#Arthur Correia
 
-valor1 = int(input("Digite o primeiro valor: "))
-valor2 = int(input("Digite o segundo valor: "))
+def organizar_em_crescente():
+    valor1 = int(input("Digite o primeiro valor: "))
+    valor2 = int(input("Digite o segundo valor: "))
 
-if valor2>valor1:
-    print(f"Os valores em ordem crescente ficam: {valor1}, {valor2}")
-else:
-    print(f"Os valores em ordem crescente ficam: {valor2}, {valor1}")
+    if valor2>valor1:
+        print(f"Os valores em ordem crescente ficam: {valor1}, {valor2}")
+    else:
+        print(f"Os valores em ordem crescente ficam: {valor2}, {valor1}")
+
+organizar_em_crescente()
